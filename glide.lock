@@ -1,0 +1,37 @@
+hash: 143e352589aba73a301f81adf3cfb2ae74651174035c2bb812294fc708d13f1f
+updated: 2018-06-15T14:06:54.059190101+02:00
+imports:
+- name: github.com/codegangsta/negroni
+  version: dae7dc68e5a970eeecdaa7e4191e11d103cb8c1d
+- name: github.com/sirupsen/logrus
+  version: ea8897e79973357ba785ac2533559a6297e83c44
+- name: github.com/wellington/go-libsass
+  version: f5873050a83719568b38a10cdeb2f7b471c2e87a
+  subpackages:
+  - libs
+- name: golang.org/x/crypto
+  version: c3a3ad6d03f7a915c0f7e194b7152974bb73d287
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/net
+  version: 92b859f39abd2d91a854c9f9c4621b2f5054a92d
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: d8e400bc7db4870d786864138af681469693d18c
+  subpackages:
+  - unix
+  - windows
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert

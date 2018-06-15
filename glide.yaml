@@ -1,5 +1,8 @@
 package: github.com/sniperkit/risotto
-import: []
+import:
+- package: github.com/codegangsta/negroni
+- package: github.com/sirupsen/logrus
+- package: github.com/wellington/go-libsass
 testImport:
 - package: github.com/stretchr/testify
   subpackages:
