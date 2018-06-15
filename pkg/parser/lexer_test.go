@@ -1,12 +1,15 @@
 package parser
 
 import (
+	"fmt"
 	"testing"
 
-	"fmt"
-	"github.com/mamaar/risotto/file"
-	"github.com/mamaar/risotto/token"
+	// external
 	"github.com/stretchr/testify/assert"
+
+	// internal
+	file "github.com/sniperkit/risotto/pkg/file"
+	token "github.com/sniperkit/risotto/pkg/token"
 )
 
 func TestLexer(t *testing.T) {

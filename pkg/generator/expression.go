@@ -2,10 +2,11 @@ package generator
 
 import (
 	"fmt"
-	"github.com/mamaar/risotto/ast"
-	"github.com/mamaar/risotto/token"
 	"reflect"
 	"strings"
+
+	ast "github.com/sniperkit/risotto/pkg/ast"
+	token "github.com/sniperkit/risotto/pkg/token"
 )
 
 func (g *generator) generateExpression(exp ast.Expression) error {

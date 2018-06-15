@@ -2,8 +2,9 @@ package generator
 
 import (
 	"fmt"
-	"github.com/mamaar/risotto/ast"
 	"reflect"
+
+	ast "github.com/sniperkit/risotto/pkg/ast"
 )
 
 func (g *generator) generateStatement(stmt ast.Statement, dcls []ast.Declaration) error {

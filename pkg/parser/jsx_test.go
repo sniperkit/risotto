@@ -1,9 +1,13 @@
 package parser
 
 import (
-	"github.com/mamaar/risotto/ast"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	// external
+	"github.com/stretchr/testify/assert"
+
+	// internal
+	ast "github.com/sniperkit/risotto/pkg/ast"
 )
 
 var validJSX = []string{

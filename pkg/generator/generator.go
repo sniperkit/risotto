@@ -3,12 +3,13 @@ package generator
 import (
 	"bytes"
 	"fmt"
-	"github.com/mamaar/risotto/ast"
-	"github.com/mamaar/risotto/parser"
 	"io"
 	"strings"
 	"unicode"
 	"unicode/utf8"
+
+	ast "github.com/sniperkit/risotto/pkg/ast"
+	parser "github.com/sniperkit/risotto/pkg/parser"
 )
 
 type generator struct {

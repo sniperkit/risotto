@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/mamaar/risotto/file"
-	"github.com/mamaar/risotto/token"
+	file "github.com/sniperkit/risotto/pkg/file"
+	token "github.com/sniperkit/risotto/pkg/token"
 )
 
 const (

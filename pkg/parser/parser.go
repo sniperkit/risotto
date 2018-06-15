@@ -6,9 +6,9 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/mamaar/risotto/ast"
-	"github.com/mamaar/risotto/file"
-	"github.com/mamaar/risotto/token"
+	ast "github.com/sniperkit/risotto/pkg/ast"
+	file "github.com/sniperkit/risotto/pkg/file"
+	token "github.com/sniperkit/risotto/pkg/token"
 )
 
 // A Mode value is a set of flags (or 0). They control optional parser functionality.
@@ -19,9 +19,9 @@ const (
 )
 
 type _parser struct {
-	str      string
-	length   int
-	base     int
+	str    string
+	length int
+	base   int
 
 	chr       rune // The current character
 	chrOffset int  // The offset of current character
