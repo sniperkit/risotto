@@ -7,9 +7,9 @@ vendor/
 vendor/*
 vendor/**
 
-textql
+_examples/gonads/gonads
 
-cmd/textql/textql*
+cmd/gonads/gonads*
 
 bin
 bin/

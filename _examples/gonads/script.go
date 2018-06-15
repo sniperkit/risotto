@@ -1,12 +1,13 @@
 package main
 
 import (
-	log "github.com/Sirupsen/logrus"
-	"github.com/mamaar/risotto/generator"
 	"io"
 	"net/http"
 	"os"
 	"path/filepath"
+
+	log "github.com/sirupsen/logrus"
+	generator "github.com/sniperkit/risotto/pkg/generator"
 )
 
 type scriptTransformer struct {

@@ -2,9 +2,10 @@ package main
 
 import (
 	"flag"
-	"github.com/codegangsta/negroni"
 	"net/http"
 	"path/filepath"
+
+	"github.com/codegangsta/negroni"
 )
 
 var (

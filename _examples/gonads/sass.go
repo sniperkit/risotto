@@ -1,11 +1,12 @@
 package main
 
 import (
-	log "github.com/Sirupsen/logrus"
-	libsass "github.com/wellington/go-libsass"
 	"net/http"
 	"os"
 	"path/filepath"
+
+	log "github.com/sirupsen/logrus"
+	libsass "github.com/wellington/go-libsass"
 )
 
 type sassTransformer struct {
